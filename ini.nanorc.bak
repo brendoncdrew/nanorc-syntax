@@ -15,5 +15,3 @@ color brightcyan "^\s*\[.*\]"
 color cyan "^\s*[a-zA-Z0-9_\.]+"
 # comments
 color brightyellow ";.*$"
-+HASHCOMMENT
-+LINT

@@ -1,0 +1,11 @@
+syntax "diff" "\.diff$"
+
++RESETALL
+color brightred   "^[<\-].*"
+color brightgreen "^[>+].*"
+COMMENT: "^ .*"
+COMMENT: "^[^<> +@0-9\-].*"
+SECTION: "@@.*@@"
+SECTION: "^---$"
+SECTION: "^[0-9].*"
++LINT
